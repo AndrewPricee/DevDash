@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-D:\Code\MoneyTracker\MoneyTracker\Tracker\obj\Debug\
+D:\Code\Personal\DevDash\devdash\Tracker\obj\Debug\
 Tracker
 none
 false
 DEBUG;TRACE
-D:\Code\MoneyTracker\MoneyTracker\Tracker\App.xaml
-11151548125
+D:\Code\Personal\DevDash\devdash\Tracker\App.xaml
+2-1442674848
 8-554976
-6-1009692852
-18-726563356
-MainWindow.xaml;
+13-1044293052
+18485155550
+MainWindow.xaml;RegistrationWindow.xaml;
 
-True
+False
 

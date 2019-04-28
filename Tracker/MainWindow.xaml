@@ -43,9 +43,9 @@
         <Label Content="Dev" Foreground="White" HorizontalAlignment="Left" Margin="362,150,0,0" VerticalAlignment="Top" Width="46"/>
         <Label Content="Dash" Foreground="#EF4036" HorizontalAlignment="Left" Margin="385,150,0,0" VerticalAlignment="Top"/>
 
-        <TextBox materialDesign:HintAssist.Hint="Username" CaretBrush="White" Style="{StaticResource ResourceKey=MaterialDesignFloatingHintTextBox}"  Foreground="White" Background="Transparent" BorderBrush="White" Height="65" Margin="215,183,215,0" TextWrapping="Wrap" VerticalAlignment="Top"/>
-        <PasswordBox materialDesign:HintAssist.Hint="Password" CaretBrush="White" Style="{StaticResource ResourceKey=MaterialDesignFloatingHintPasswordBox}" Foreground="White" Background="Transparent" BorderBrush="White" HorizontalAlignment="Left" Margin="215,244,0,0" VerticalAlignment="Top" Width="212" Height="65"/>
-        <Button Content="Login" BorderBrush="Transparent" Background="#EF4036" Foreground="White" Margin="234,350,234,0" VerticalAlignment="Top" Height="34"/>
-        <Button Foreground="#888888" Background="Transparent" BorderBrush="#888888" Content="Set up an Account" Margin="235,388,235,0" VerticalAlignment="Top" Height="30"/>
+        <TextBox Name="UserName" materialDesign:HintAssist.Hint="Username" CaretBrush="White" Style="{StaticResource ResourceKey=MaterialDesignFloatingHintTextBox}"  Foreground="White" Background="Transparent" BorderBrush="White" Height="65" Margin="215,183,215,0" TextWrapping="Wrap" VerticalAlignment="Top"/>
+        <PasswordBox Name="Password"  materialDesign:HintAssist.Hint="Password" CaretBrush="White" Style="{StaticResource ResourceKey=MaterialDesignFloatingHintPasswordBox}" Foreground="White" Background="Transparent" BorderBrush="White" HorizontalAlignment="Left" Margin="215,244,0,0" VerticalAlignment="Top" Width="212" Height="65"/>
+        <Button Name="LoginButton" Content="Login" BorderBrush="Transparent" Background="#EF4036" Foreground="White" Margin="234,350,234,0" VerticalAlignment="Top" Height="34" Click="LoginButton_Click"/>
+        <Button Name="RegisterAccountButton" Foreground="#888888" Background="Transparent" BorderBrush="#888888" Content="Set up an Account" Margin="235,388,235,0" VerticalAlignment="Top" Height="30" Click="RegisterAccountButton_Click"/>
     </Grid>
 </Window>
