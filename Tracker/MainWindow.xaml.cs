@@ -79,7 +79,9 @@ namespace Tracker
             {
                 if (_db.Users.First(x => x.Username.Equals(UserName.Text)).Password.Equals(Password.Password))
                 {
-
+                    DashBoardWindow dash = new DashBoardWindow(_db, _db.Users.First(x => x.Username.Equals(UserName.Text)));
+                    dash.Show();
+                    this.Close();
                 }
 
             }

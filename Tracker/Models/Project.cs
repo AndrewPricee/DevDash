@@ -12,7 +12,7 @@ namespace Tracker.Models
         public int UserID { get; set; }
         public string ProjectName { get; set; }
         public DateTime ProjectStartDate { get; set; }
-        public DateTime ProjectEndDate { get; set; }
+        public DateTime ProjectDueDate { get; set; }
         public string ProjectDescription { get; set; }
         public bool ProjectComplete { get; set; }
         public int ProjectType { get; set; }

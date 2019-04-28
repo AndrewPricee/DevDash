@@ -103,7 +103,8 @@ namespace Tracker
                         LastName = Usersurname,
                         Username = UserName,
                         Password = ConfirmPassword,
-                        UserID = NewUserID
+                        UserID = NewUserID,
+                        UserType = 0
                     };
 
                     _db.Users.Add(userInfo);

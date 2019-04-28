@@ -50,3 +50,8 @@ D:\Code\Personal\DevDash\devdash\Tracker\obj\Debug\Tracker.exe
 D:\Code\Personal\DevDash\devdash\Tracker\obj\Debug\Tracker.pdb
 D:\Code\Personal\DevDash\devdash\Tracker\obj\Debug\RegistrationWindow.g.cs
 D:\Code\Personal\DevDash\devdash\Tracker\obj\Debug\RegistrationWindow.baml
+D:\Code\Personal\DevDash\devdash\Tracker\obj\Debug\DashBoardWindow.g.cs
+D:\Code\Personal\DevDash\devdash\Tracker\obj\Debug\DashBoardWindow.baml
+D:\Code\Personal\DevDash\devdash\Tracker\obj\Debug\Tracker.csprojAssemblyReference.cache
+D:\Code\Personal\DevDash\devdash\Tracker\bin\Debug\FontAwesome.WPF.dll
+D:\Code\Personal\DevDash\devdash\Tracker\bin\Debug\FontAwesome.WPF.xml

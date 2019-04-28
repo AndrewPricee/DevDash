@@ -5,6 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Tracker"
         xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+        xmlns:fa="http://schemas.fontawesome.io/icons/"
         mc:Ignorable="d"
         WindowStyle="None"
         WindowState="Normal"
@@ -38,8 +39,12 @@
             </Button.Style>
         </Button>
         <Rectangle Margin="37,3,49,385" MouseLeftButtonDown="Window_MouseLeftButtonDown" Fill="Transparent"></Rectangle>
-        <TextBlock Style="{StaticResource FontAwesome}" Padding="0" Foreground="#EF4036" FontSize="200" Text="&#xf0d7;" Margin="268,0,268,285" />
-        <TextBlock Style="{StaticResource FontAwesome}" Padding="0" Foreground="#222222" FontSize="100" Text="&#xf0d7;" Margin="295,50,295,305" />
+        <TextBlock Padding="0" VerticalAlignment="Top" HorizontalAlignment="Left" FontSize="200"  Margin="268,0,268,285" >
+            <fa:FontAwesome Icon="CaretDown" Foreground="#EF4036"/>
+        </TextBlock>
+        <TextBlock Padding="0" VerticalAlignment="Top" HorizontalAlignment="Left" FontSize="100"  Margin="295,50,295,305" >
+            <fa:FontAwesome Icon="CaretDown" Foreground="#222222"/>
+        </TextBlock>
         <Label Content="Dev" Foreground="White" HorizontalAlignment="Left" Margin="362,150,0,0" VerticalAlignment="Top" Width="46"/>
         <Label Content="Dash" Foreground="#EF4036" HorizontalAlignment="Left" Margin="385,150,0,0" VerticalAlignment="Top"/>
 
