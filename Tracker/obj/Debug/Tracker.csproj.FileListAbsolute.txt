@@ -55,3 +55,5 @@ D:\Code\Personal\DevDash\devdash\Tracker\obj\Debug\DashBoardWindow.baml
 D:\Code\Personal\DevDash\devdash\Tracker\obj\Debug\Tracker.csprojAssemblyReference.cache
 D:\Code\Personal\DevDash\devdash\Tracker\bin\Debug\FontAwesome.WPF.dll
 D:\Code\Personal\DevDash\devdash\Tracker\bin\Debug\FontAwesome.WPF.xml
+D:\Code\Personal\DevDash\devdash\Tracker\obj\Debug\Models\Dialog.g.cs
+D:\Code\Personal\DevDash\devdash\Tracker\obj\Debug\Models\Dialog.baml

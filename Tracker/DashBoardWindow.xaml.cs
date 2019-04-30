@@ -113,6 +113,20 @@ namespace Tracker
 
             _db.Projects.Add(project);
             _db.SaveChanges();
+
+            Dialog dialog = new Dialog("Project Has Been Added", "okay", "", false);
+            dialog.ShowDialog();
+
+            ProjectNameTextBox.Text = "";
+            DueDatePicker.Text = "";
+            StartDatePicker.Text = "";
+            ProjectDescriptionBox.Text = "";
+            CompletedCheckBox.IsChecked = false;
+        }
+
+        private void TabControl_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+            SetUp(_db, LoggedInUser);
         }
     }
 }

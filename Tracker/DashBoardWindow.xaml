@@ -47,7 +47,7 @@
         </TextBlock>
         <Label Content="Dev" Foreground="White" FontSize="9" HorizontalAlignment="Left" Margin="34,39,0,0" VerticalAlignment="Top" Width="27" Height="20"/>
         <Label Content="Dash" Foreground="#EF4036" FontSize="9" HorizontalAlignment="Left" Margin="49,39,0,0" VerticalAlignment="Top" Height="20" Width="33"/>
-        <TabControl x:Name="TabControl" TabStripPlacement="Left" Margin="34,80,49,30" Background="#222222" BorderThickness="0">
+        <TabControl x:Name="TabControl" TabStripPlacement="Left" Margin="34,80,49,30" Background="#222222" BorderThickness="0" SelectionChanged="TabControl_SelectionChanged">
             <TabControl.Resources>
                 <Style TargetType="TabItem">
                     <Setter Property="Template">
@@ -81,11 +81,11 @@
                         <fa:FontAwesome Icon="CircleOutlineNotch" Foreground="#F000AEEF" Spin="True" SpinDuration="5"/>
                     </Label>
                     <Label Name="CurrentProjectsCount" Foreground="#F000AEEF" Content="" HorizontalAlignment="Left" Margin="165,135,0,0" VerticalAlignment="Top" Width="65"/>
-                    <Label FontSize="80" Margin="455,170,0,0" Height="110" VerticalAlignment="Top" HorizontalAlignment="Left" Width="90">
+                    <Label FontSize="80" Margin="355,170,0,0" Height="110" VerticalAlignment="Top" HorizontalAlignment="Left" Width="90">
                         <fa:FontAwesome Icon="CircleOutlineNotch" Foreground="#009000" Spin="True" SpinDuration="5"/>
                     </Label>
-                    <Label Content="Completed Projects" HorizontalAlignment="Left" Margin="440,140,0,0" VerticalAlignment="Top" Width="128"/>
-                    <Label Name="CompletedProjectsCount" Foreground="#009000" Content="" HorizontalAlignment="Left" Margin="490,200,0,0" VerticalAlignment="Top" Width="72"/>
+                    <Label Content="Completed Projects" HorizontalAlignment="Left" Margin="340,140,0,0" VerticalAlignment="Top" Width="128"/>
+                    <Label Name="CompletedProjectsCount" Foreground="#009000" Content="" HorizontalAlignment="Left" Margin="390,200,0,0" VerticalAlignment="Top" Width="72"/>
                     <Label Content="Hot Projects" HorizontalAlignment="Left" Margin="135,235,0,0" VerticalAlignment="Top" Width="80"/>
                     <Label FontSize="80" Margin="130,270,0,0" HorizontalAlignment="Left" Width="90" Height="110" VerticalAlignment="Top">
                         <fa:FontAwesome Icon="CircleOutlineNotch" Foreground="#EF4036" Spin="True" SpinDuration="5"/>
@@ -108,11 +108,11 @@
             </TabItem>
             <TabItem Header="New Project">
                 <Grid Background="#222222">
-                    <TextBox Name="ProjectNameTextBox" materialDesign:HintAssist.Hint="Project Name" CaretBrush="White" Style="{StaticResource ResourceKey=MaterialDesignFloatingHintTextBox}"  Foreground="White" Background="Transparent" BorderBrush="White" Height="60" Margin="167,10,173.8,0" TextWrapping="Wrap" VerticalAlignment="Top"/>
+                    <TextBox Name="ProjectNameTextBox" materialDesign:HintAssist.Hint="Project Name" CaretBrush="White" Style="{StaticResource MaterialDesignFloatingHintTextBox}"  Foreground="White" Background="Transparent" BorderBrush="White" Height="70" Margin="167,0,173.8,0" TextWrapping="Wrap" VerticalAlignment="Top"/>
                     <DatePicker Name="DueDatePicker" materialDesign:HintAssist.Hint="Due Date"  BorderBrush="White" Style="{StaticResource MaterialDesignFloatingHintDatePicker}" HorizontalAlignment="Left" Foreground="White" Height="46" Margin="167,75,0,0" VerticalAlignment="Top" Width="222"/>
                     <DatePicker Name="StartDatePicker" materialDesign:HintAssist.Hint="Start Date" Background="#222222"  BorderBrush="White" Style="{StaticResource MaterialDesignFloatingHintDatePicker}" HorizontalAlignment="Left" Foreground="White" Height="46" Margin="167,125,0,0" VerticalAlignment="Top" Width="222"/>
                     <TextBox Name="ProjectDescriptionBox" HorizontalAlignment="Left" Height="89" Margin="120,186,0,0" BorderBrush="#888888" Padding="2" CaretBrush="#888888" BorderThickness="1" TextWrapping="Wrap" MaxHeight="100" VerticalScrollBarVisibility="Visible" VerticalAlignment="Top" Width="325"/>
-                    <CheckBox Name="CompletedCheckBox" BorderBrush="White" Content="Completed" HorizontalAlignment="Left" Background="White" Foreground="White" Margin="228,298,0,0" VerticalAlignment="Top" Width="104" Height="30"/>
+                    <CheckBox Name="CompletedCheckBox" BorderBrush="White" Content="Completed" HorizontalAlignment="Left"  Background="White" Foreground="White" Margin="228,298,0,0" VerticalAlignment="Top" Width="104" Height="30"/>
                     <Button Name="CreateProjectButton" BorderBrush="Transparent" Content="Create Project" Foreground="White" Background="#EF4036" HorizontalAlignment="Left" Margin="420,344,0,0" VerticalAlignment="Top" Width="131" Click="CreateProjectButton_Click"/>
 
                 </Grid>
